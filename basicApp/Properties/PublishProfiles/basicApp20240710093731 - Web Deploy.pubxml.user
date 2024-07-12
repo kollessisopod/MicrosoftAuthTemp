@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0gi/IO1/AkWrd9B0dWPxagAAAAACAAAAAAADZgAAwAAAABAAAABqb7708zrRNZUyGeRp6SIPAAAAAASAAACgAAAAEAAAACL+P7RSxWBEknVIMWFnYE2AAAAAZ2YczgxL3wgHP1jEyNFf6wuoUn4DLDQGYIFgzJgfkLjW6UPBH+L1fLw/t7anOFhl7WHeihFuxhQEiIt3f4cjm2QXF9FtkSmwYJ88+xVPT6z5Q46YskZQDK4Sg1G+umNgp1qiUHcMInXUoQBzanxEmuExAQzVdiey2avl98A6fH0UAAAAsVgQpPiN3/R6WM3v5PW8Cr6P5hE=</EncryptedPassword>
+    <History>True|2024-07-11T06:10:13.5296417Z||;True|2024-07-11T09:05:14.6005887+03:00||;True|2024-07-11T08:42:52.1257806+03:00||;True|2024-07-10T11:22:48.3847288+03:00||;False|2024-07-10T11:21:11.5398722+03:00||;False|2024-07-10T11:16:01.7177456+03:00||;True|2024-07-10T09:40:25.4235716+03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:maistask.database.windows.net,1433%3bInitial Catalog=MTDB%3bPersist Security Info=False%3bUser ID=adminR%3bPassword=Renault5%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ApplicationDbContext">
+      <Value>Server=tcp:maistask.database.windows.net,1433%3bInitial Catalog=MTDB%3bPersist Security Info=False%3bUser ID=adminR%3bPassword=Renault5%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

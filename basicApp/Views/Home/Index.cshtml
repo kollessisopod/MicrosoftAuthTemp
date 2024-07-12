@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using basicApp;
+@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<User> _signInManager
+@inject UserManager<User> _userManager
+
+@if (User.Identity.IsAuthenticated)
+{
+    var user = await _userManager.GetUserAsync(User);
+
+    <h1>Welcome, @User.Identity.Name!</h1>
+    <p>Your Info: @user.Info</p>
+
+    <form asp-controller="Account" asp-action="Logout" method="post">
+        @Html.AntiForgeryToken()
+        <button type="submit">Logout</button>
+    </form>
+    
+    @if(user.MicrosoftAccountId != null && user.MicrosoftAccountId != "")
+    {
+		<p>Microsoft Account linked. </p>
+		<p>Microsoft Account Id: @user.MicrosoftAccountId</p>
+        <p>Microsoft Account Email: @user.MicrosoftAccountEmail</p>
+
+        <form asp-controller="Account" asp-action="UnlinkMicrosoftAccount" method="post">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-warning">Unlink Microsoft Account</button>
+        </form>
+    } else
+    {
+     <form asp-controller="Account" asp-action="LinkMicrosoftAccount" method="post" id="linkMicrosoftAccountForm">
+        <button type="submit">Link Microsoft Account</button>
+    </form>       
+    }
+
+
+}
+else
+{
+    <h1>Welcome to the Application!</h1>
+    <a href="@Url.Action("Login", "Account")">
+        Login
+    </a>
+}

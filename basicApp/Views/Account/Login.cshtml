@@ -1,0 +1,24 @@
+﻿@model LoginViewModel
+
+<form asp-action="Login" asp-controller="Account" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password" class="control-label"></label>
+        <input asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+    <p>or</p>
+    
+    <!-- button for Microsoft login -->
+    <form asp-controller="Account" asp-action="ExternalLogin" method="post" id="loginWithMicrosoftForm">
+        <button type="submit">Login with Microsoft</button>
+    </form>
+}
