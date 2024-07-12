@@ -19,6 +19,8 @@ Configuration'da Callback-Path benim kodumda "/signin-microsoft" şeklinde ayarl
 "exampleatlas.com.tr" ise redirectleneceğimiz adresin "exampleatlas.com.tr/signin-microsoft" olacağı anlamına geliyor.
 Gereken şekilde düzenleyip redirect adresini kaydedin.
 	4.1- Publishlediğim App için redirect adresi "https://basicapp20240710093731.azurewebsites.net/signin-microsoft".
+	4.2- Gördüğüm kadarıyla redirect adresi "http://dmsatlas.com/auth/microsoft" olmalı ve 
+	Callback-path  "/auth/Microsoft" olmalı. Kodun içine de yazıyorum.
 
 5- Yine Authentication kısmında "Implicit grant and hybrid flows" kısmında 2 seçenek var. "Access tokens" ve "ID tokens".
 Bu seçeneklerden ID Tokens'in seçili olduğuna ve Access Tokens'in seçili OLMADIĞINA emin olun. Aksi erişim hatası sebebi.

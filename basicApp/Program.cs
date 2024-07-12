@@ -43,7 +43,7 @@ public class Program
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
 
-        //** Configuration of cookies (I don't have an idea about this part, did as chatgpt told me so.
+        //** Configuration of cookies (I don't have an idea about this part, did as chatgpt told me so. You may configure login path yourselves or ignore this)
         builder.Services.ConfigureApplicationCookie(options =>
         {
             options.Cookie.HttpOnly = true;
@@ -62,14 +62,14 @@ public class Program
     {
         options.Cookie.HttpOnly = true;
         options.Cookie.SameSite = Microsoft.AspNetCore.Http.SameSiteMode.Strict;
-        options.LoginPath = "/Account/Login"; // Customize login path
-        options.LogoutPath = "/Home/Index"; // Customize logout path
+        options.LoginPath = "/Account/Login"; //** Configure your login path
+        options.LogoutPath = "/Home/Index"; //** Configure your logout path
     }).AddMicrosoftAccount(microsoftOptions =>
     {
         microsoftOptions.ClientId = builder.Configuration["Authentication:Microsoft:ClientId"];
         microsoftOptions.ClientSecret = builder.Configuration["Authentication:Microsoft:ClientSecret"];
-        microsoftOptions.CallbackPath = "/signin-microsoft";    //** IMPORTANT: This should match the callback URL provided in the Azure portal.
-        microsoftOptions.SaveTokens = true;
+        microsoftOptions.CallbackPath = "/signin-microsoft";    //** IMPORTANT: This should match the callback URL provided in the Azure portal. YOURS SHOULD BE: /auth/microsoft
+        microsoftOptions.SaveTokens = true;                     
     });
 
 

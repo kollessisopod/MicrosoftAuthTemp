@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ax25405\\Documents\\GitHub\\basicApp\\basicApp\\basicApp.csproj": {}
+    "C:\\Users\\ax25405\\Documents\\GitHub\\basicApp\\MicrosoftAuthTemp\\basicApp\\basicApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ax25405\\Documents\\GitHub\\basicApp\\basicApp\\basicApp.csproj": {
+    "C:\\Users\\ax25405\\Documents\\GitHub\\basicApp\\MicrosoftAuthTemp\\basicApp\\basicApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ax25405\\Documents\\GitHub\\basicApp\\basicApp\\basicApp.csproj",
+        "projectUniqueName": "C:\\Users\\ax25405\\Documents\\GitHub\\basicApp\\MicrosoftAuthTemp\\basicApp\\basicApp.csproj",
         "projectName": "basicApp",
-        "projectPath": "C:\\Users\\ax25405\\Documents\\GitHub\\basicApp\\basicApp\\basicApp.csproj",
+        "projectPath": "C:\\Users\\ax25405\\Documents\\GitHub\\basicApp\\MicrosoftAuthTemp\\basicApp\\basicApp.csproj",
         "packagesPath": "C:\\Users\\ax25405\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ax25405\\Documents\\GitHub\\basicApp\\basicApp\\obj\\",
+        "outputPath": "C:\\Users\\ax25405\\Documents\\GitHub\\basicApp\\MicrosoftAuthTemp\\basicApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ax25405\\AppData\\Roaming\\NuGet\\NuGet.Config",
