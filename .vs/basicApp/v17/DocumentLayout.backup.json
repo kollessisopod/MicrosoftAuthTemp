@@ -50,7 +50,8 @@
               "RelativeToolTip": "basicApp\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T06:43:12.203Z"
+              "WhenOpened": "2024-10-30T06:43:12.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,7 +76,8 @@
               "RelativeToolTip": "basicApp\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T06:18:27.339Z"
+              "WhenOpened": "2024-10-30T06:18:27.339Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -87,7 +89,8 @@
               "RelativeToolTip": "basicApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-30T06:16:47.534Z"
+              "WhenOpened": "2024-10-30T06:16:47.534Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -99,7 +102,8 @@
               "RelativeToolTip": "basicApp\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T06:13:45.043Z"
+              "WhenOpened": "2024-10-30T06:13:45.043Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -111,7 +115,8 @@
               "RelativeToolTip": "basicApp\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T06:13:25.891Z"
+              "WhenOpened": "2024-10-30T06:13:25.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -123,7 +128,8 @@
               "RelativeToolTip": "basicApp\\Program.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAQwFAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T12:57:50.343Z"
+              "WhenOpened": "2024-07-12T12:57:50.343Z",
+              "EditorCaption": ""
             }
           ]
         }

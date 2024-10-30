@@ -1,4 +1,4 @@
-readMebyKata
+ReadMebyKata
 
 Selam, kod içindeki commentlerim //** ile başlıyor. bu readme'yi Azure konfigürasyonuyla alakalı yazıyorum.
 
@@ -18,13 +18,12 @@ Microsoft Authentication işlemi için Azure'de bir Active Directory'ye ihtiyac�
 Configuration'da Callback-Path benim kodumda "/signin-microsoft" şeklinde ayarlı, bu da site adresimiz eğer
 "exampleatlas.com.tr" ise redirectleneceğimiz adresin "exampleatlas.com.tr/signin-microsoft" olacağı anlamına geliyor.
 Gereken şekilde düzenleyip redirect adresini kaydedin.
-	4.1- Publishlediğim App için redirect adresi "https://basicapp20240710093731.azurewebsites.net/signin-microsoft".
-	4.2- Gördüğüm kadarıyla redirect adresi "http://dmsatlas.com/auth/microsoft" olmalı ve 
-	Callback-path  "/auth/Microsoft" olmalı. Kodun içine de yazıyorum.
+	4.1- Publishlediğim App için redirect adresi "https://[CLEARED].azurewebsites.net/signin-microsoft".
+	4.2- Gördüğüm kadarıyla redirect adresi "http://[CLEARED]" olmalı ve 
+	Callback-path  "[CLEARED]" olmalı. Kodun içine de yazıyorum.
 
 5- Yine Authentication kısmında "Implicit grant and hybrid flows" kısmında 2 seçenek var. "Access tokens" ve "ID tokens".
 Bu seçeneklerden ID Tokens'in seçili olduğuna ve Access Tokens'in seçili OLMADIĞINA emin olun. Aksi erişim hatası sebebi.
-
 
 6- Yine Authentication'da en altta Advanced settings'te Allow public client flows seçeneği "No" olacak.
 
@@ -35,4 +34,4 @@ Daha detaylı dokümantasyon için :
 https://learn.microsoft.com/tr-tr/azure/active-directory-b2c/tutorial-create-tenant#create-an-azure-ad-b2c-tenant
 
 Umarım eksik yazdığım bir yer yoktur. Gerekli olursa yardımcı olmaya hazırım.
-kata
+~kata
